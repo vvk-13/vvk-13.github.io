@@ -1,0 +1,81 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffffff;
+	color: #8c8c8c;
+}
+h1, h2, h3, h4, h5{
+	color: #555555;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+}
+.services{
+	width: 100%;
+	height: 375px;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+.services a{
+	text-decoration: none;
+	color: #8c8c8c;
+}
+.services h3{
+	font-size: 22px;
+}
+.services hr{
+	width: 70px;
+	border: 0;
+  	border-top: 3px solid #f1eee9;
+}
+
+.Realization{
+	background-color: #fbfaf8;
+	width: 100%;
+	height: 700px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.Realization h2{
+	margin-top: 80px;
+}
+.Realization-items{
+	margin-top: 52px;
+	height: 482px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.Bcenter{
+	position: absolute;
+}
+
+.Textbox{
+	height: 150px;
+	background: linear-gradient(45deg, #211b19, #4e3427);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.text-item h2{
+	font-size: 28px;
+	color: #ffffff;
+}
+.text-item span{
+	color: #c7b299;
+}
+.text-item p{
+	font-size: 18px;
+	color: #615855; 
+}
+
+.LatestProjects{
+	height: 1165px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
